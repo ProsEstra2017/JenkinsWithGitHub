@@ -161,6 +161,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BusinessLogic\AlumnoDA.cs" />
     <Compile Include="Controllers\AlumnoController.cs" />
     <Compile Include="Controllers\AreaController.cs" />
     <Compile Include="Controllers\AsignacionCursoDocenteController.cs" />

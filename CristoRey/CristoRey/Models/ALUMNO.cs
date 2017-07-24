@@ -32,7 +32,7 @@ namespace CristoRey.Models
 
         [Required(ErrorMessage = "Este campo es obligatorio")]
         [StringLength(8)]
-        [MaxLength(8,ErrorMessage = "El DNI no puede exceder ni ser menor a 8 digitos.")]
+        [MaxLength(8, ErrorMessage = "El DNI no puede exceder ni ser menor a 8 digitos.")]
         [RegularExpression("^\\d+$", ErrorMessage = "El DNI debe contener sólo números.")]
         [MinLength(8, ErrorMessage = "El DNI no puede exceder ni ser menor a 8 digitos.")]
         public string dni_alum { get; set; }
@@ -76,6 +76,7 @@ namespace CristoRey.Models
         public virtual DISTRITO DISTRITO { get; set; }
 
         public virtual PADRE_FAMILIA PADRE_FAMILIA { get; set; }
-        
+
     }
+    
 }

@@ -13,7 +13,7 @@ namespace CristoRey.Controllers
     public class AlumnoController : Controller
     {
 
-        private BDColegio db = new BDColegio();
+        private BDColegio db = new BDColegio();       
 
         // GET: Alumno
         public ActionResult Index()
