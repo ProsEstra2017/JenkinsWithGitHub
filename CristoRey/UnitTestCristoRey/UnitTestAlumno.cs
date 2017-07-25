@@ -24,8 +24,9 @@ namespace UnitTestCristoRey
         [TestMethod]
         public void EsValido_AlumnoConDniCorrectoEsValido()
         {
+            //METODO 2
             var servicioAlumnoDA = new AlumnoDA();
-            var alumno = new ALUMNO() { nom_alum = "Roy Brayan" , dni_alum="7184201" };
+            var alumno = new ALUMNO() { nom_alum = "Roy Brayan" , dni_alum="71842016" };
             var resultado = servicioAlumnoDA.EsValido(alumno);
             Assert.IsTrue(resultado);
             Assert.IsFalse(servicioAlumnoDA.Errores.Any());
